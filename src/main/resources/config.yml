@@ -1,0 +1,67 @@
+mysql:
+  host: "89.116.186.22"
+  port: 3306
+  database: "s3_eagle106"
+  username: "u3_wS87WqjqXq"
+  password: "emDSzkn+rV^NTdcP2pIn9l6k"
+
+shop-name: "§aLoja"
+
+purchase-timeout-seconds: 30
+sell-bonuses:
+  vip:
+    permission: "ychestshop.bonus.vip"
+    priority: 1
+    percentage: 1.5
+  evp:
+    permission: "ychestshop.bonus.evp"
+    priority: 2
+    percentage: 2.5
+  mvp:
+    permission: "ychestshop.bonus.mvp"
+    priority: 3
+    percentage: 3.1
+buy-discounts:
+  battle:
+    permission: "ychestshop.discount.battle"
+    priority: 1
+    percentage: 2.0
+  vip:
+    permission: "ychestshop.discount.vip"
+    priority: 1
+    percentage: 5.0
+  evp:
+    permission: "ychestshop.discount.evp"
+    priority: 2
+    percentage: 10.0
+  mvp:
+    permission: "ychestshop.discount.mvp"
+    priority: 3
+    percentage: 17.5
+messages:
+  no-permission: "&cVocê não tem permissão!"
+  no-shift: "&cUse shift enquanto segura o item!"
+  no-item: "&cSegure um item na mão!"
+  input-prompt: "&eDigite no chat: [preço de compra] [preço de venda] [quantidade]"
+  invalid-format: "&cFormato inválido! Use: [compra] [venda] [quantidade]"
+  invalid-number: "&cNúmeros inválidos!"
+  invalid-price: "&cPreços não podem ser negativos!"
+  invalid-amount: "&cQuantidade deve ser entre 1 e 64!"
+  shop-created: "&aLoja criada para {item}!"
+  no-money: "&cVocê não tem {price} para comprar {amount} {item}!"
+  full-inventory: "&cSeu inventário está cheio para {amount} {item}!"
+  purchase-success: "&aVocê comprou {amount} {item} por {price}!"
+  no-items: "&cVocê não tem {amount} {item} para vender!"
+  sell-success: "&aVocê vendeu {amount} {item} por {price}!"
+  admin-mode-enabled: "&aModo administrador ativado!"
+  admin-mode-disabled: "&eModo administrador desativado!"
+  buying: "&eEstou comprando... &d(:"
+  enter-quantity: "&eDigite a quantidade que deseja comprar (máximo {max}):"
+  invalid-quantity: "&cQuantidade inválida! Digite um número entre 1 e {max}."
+  max-quantity: "&cVocê só pode comprar até {max} itens!"
+  purchase-cancelled: "&cCompra cancelada!"
+  sell-all: "&aVocê vendeu todos os {item} do seu inventário por {price}!"
+  purchase-timeout: "&cTempo esgotado! Compra cancelada."
+  purchase-timeout-warning: "&eFaltam 5 segundos para cancelar a compra!"
+  bonus-applied: "&aVocê recebeu um bônus de {percentage}%!"
+  discount-applied: "&aVocê recebeu um desconto de {percentage}%!"

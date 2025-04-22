@@ -1,0 +1,4 @@
+name: FloruitChestShop
+version: '1.0-SNAPSHOT'
+main: com.hanielcota.floruitchestshop.FloruitChestShop
+api-version: '1.21'
